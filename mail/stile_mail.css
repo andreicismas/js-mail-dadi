@@ -1,0 +1,22 @@
+body{
+    height: 100%;
+    background-image: url(img/full.jpg);
+  
+}
+#my_text{
+    color: red;
+ 
+}
+
+.style_h3{
+    color: aqua;
+    font-size: 30px;
+}
+
+.style_btn{
+    padding: 20px;
+    opacity: 60%;
+    font-size: 25px;
+    border-radius: 5px;
+   
+}

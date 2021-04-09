@@ -10,7 +10,7 @@ console.log(mailList)
 // add client mail-
 var yourMail =prompt("inserisci la tua mail " );
 
-//  boolean valeu  false/true
+//  boolean value  false/true
 var mailPresente = false
 
 // cycle for
@@ -19,8 +19,10 @@ for (var i = 0; i < mailList.length; i++){
 
     if(mailListLog === yourMail){
         mailPresente =true
-        console.log("la tua mail e corretta" +i)
-        document.getElementById("my_text").innerHTML=("Bravo hai caricato la mail giusta")
+        console.log("la tua mail e corretta" +yourMail )
+        console.log("si trova all posizione "+i )
+        document.getElementById("my_text").innerHTML=("<em>Bravo hai caricato la mail giusta</em>") 
+
     }
 }
 
