@@ -1,0 +1,11 @@
+body{
+    background-image: url(img/dadi.jpg);
+    background-size: cover;
+}
+
+#my_text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 106, 47) ;
+    text-decoration: underline blue;
+}
